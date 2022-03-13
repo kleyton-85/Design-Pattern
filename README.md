@@ -14,7 +14,6 @@ Como resultado, você terá um código bastante sujo, repleto de condicionais qu
 
 Imagine que você está criando um simulador de loja de mobílias. Seu código consiste de classes que representam:
 
-  1- Uma família de produtos relacionados, como: Cadeira + Sofá + MesaDeCentro. 
-  2- Várias variantes dessa família. Por exemplo, produtos Cadeira + Sofá + MesaDeCentro estão disponíveis nessas variantes: Moderno, Vitoriano, ArtDeco.
+  1- Uma família de produtos relacionados, como: Cadeira + Sofá + MesaDeCentro.                                                                                                       2- Várias variantes dessa família. Por exemplo, produtos Cadeira + Sofá + MesaDeCentro estão disponíveis nessas variantes: Moderno, Vitoriano, ArtDeco.
 
 Você precisa de um jeito de criar objetos de mobília individuais para que eles combinem com outros objetos da mesma família. Os clientes ficam muito bravos quando recebem mobília que não combina. E ainda, você não quer mudar o código existente quando adiciona novos produtos ou famílias de produtos ao programa. Os vendedores de mobílias atualizam seus catálogos com frequência e você não vai querer mudar o código base cada vez que isso acontece.
